@@ -1,0 +1,29 @@
+body {
+  margin-left: 10px;
+}
+
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+  
+.formListItem {
+  display: flex; 
+   align-items: center;
+}
+  
+.formText {
+    margin: 0;
+    padding: 5px;
+}
+  
+.btn {
+    width: 60px;
+    margin-left: 20px;
+}
+
+
+
+
+  

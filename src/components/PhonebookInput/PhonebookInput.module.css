@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  width: 300px;
+  }
+  
+.container {
+    width: 480px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+  
+.formLabel {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+}
+  
+.formTitle {
+    margin-right: 15px;
+ }
+  
+.formInput {
+    margin-top: 10px;
+}
+  
+.btn {
+    padding: 2px;
+    width: 100px;
+    margin-top: 20px;
+}
+  
+
+
+
+
+
+
+
