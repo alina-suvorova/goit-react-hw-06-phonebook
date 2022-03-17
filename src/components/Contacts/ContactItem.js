@@ -1,19 +1,13 @@
 import PropTypes from 'prop-types';
-import s from './Contacts.module.css';
+import style from './Contacts.module.css';
 
 const ContactItem = ({ contact, onDelete }) => {
-  const { id, name, number } = contact;
+const { id, name, number } = contact;
   return (
-    <li className={s.formListItem}>
-      <p className={s.formText}>{name}:</p>
-      <p className={s.formText}>{number}</p>
-      <button className={s.btn} type="button"
-        id={id}
-        onClick={e => {
-          onDelete(e.target.id);
-        }}>
-        Delete
-      </button>
+    <li className={style.formListItem}>
+      <p className={style.formText}>{name}:</p>
+      <p className={style.formText}>{number}</p>
+      <button className={style.btn} type="button" id={id} onClick={e => {onDelete(e.target.id)}}>Delete</button>
     </li>
   );
 };
